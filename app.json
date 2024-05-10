@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "ZoeMed",
+    "slug": "ZoeMed",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vee.ZoeMed",
+      "bitcode": false,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.victor297.ZoeMed",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f44d50de-abac-49e2-8600-5b7819d3c6a2"
+      }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "victor297"
+        }
+      ]
+    ],
+    "updates": {
+      "url": "https://u.expo.dev/f44d50de-abac-49e2-8600-5b7819d3c6a2"
+    }
+  }
+}
